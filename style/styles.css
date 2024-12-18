@@ -2,12 +2,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+
 /* universal style */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Work Sans", serif;
+}
+
+/* shared style  */
+.sec-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* shared style  */
+.sec-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 /* hero section */
@@ -39,6 +55,8 @@
     margin-bottom: 0;
 }
 
+/* button styles */
+
 .btn-primary {
     border-radius: 5px;
     background: #FFF;
@@ -48,4 +66,103 @@
     font-size: 20px;
     font-weight: 600;
     margin-top: 32px;
+}
+
+/* main secton  */
+
+main {}
+
+.failure {
+    display: flex;
+    align-items: flex-end;
+    gap: 134px;
+    padding: 100px 115px;
+}
+
+.failure img {
+    align-items: start;
+    min-width: 450px;
+}
+
+.content,
+.content li {
+    margin-right: 0;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 8px;
+    max-width: 450px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '√';
+    font-weight: 800;
+    padding-right: 8px;
+    color: rgba(22, 216, 135, 1);
+}
+
+.sec-desc {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+/* my plan section  */
+.plan-title {
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 1600px;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 53px;
+    max-width: 1600px;
+}
+
+.card-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 21px;
+}
+
+.card-desc {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+/* watch section  */
+.watch-section {
+    max-width: 1600px;
+    padding: 130px;
+}
+
+.watch {
+    border-radius: 8px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    max-width: 1140px;
+    height: 300px;
+    padding: 59px 64px;
+}
+
+.watch-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
 }
