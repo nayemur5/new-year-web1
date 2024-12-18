@@ -1,0 +1,51 @@
+/* google font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* universal style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", serif;
+}
+
+/* hero section */
+.hero {
+    max-width: 1600px;
+    min-height: 808px;
+    background-image: url('../images/banner/banner3.png');
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+    color: #FFF;
+    padding-top: 170px;
+    padding-right: 230px;
+}
+
+/* hero title */
+
+.hero-container>h3 {
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 0;
+}
+
+.hero-desc {
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    padding: 20px 25px;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
+}
