@@ -19,22 +19,29 @@
     font-weight: 700;
 }
 
-/* shared style  */
-.sec-title {
-    color: #151414;
-    font-size: 40px;
-    font-weight: 700;
+.btn-primary {
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    padding: 20px 25px;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
 }
 
+
 /* hero section */
+
 .hero {
-    max-width: 1600px;
-    min-height: 808px;
     background-image: url('../images/banner/banner3.png');
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     text-align: right;
     color: #FFF;
+    width: 100%;
+    height: 100vh;
     padding-top: 170px;
     padding-right: 230px;
 }
@@ -55,28 +62,13 @@
     margin-bottom: 0;
 }
 
-/* button styles */
-
-.btn-primary {
-    border-radius: 5px;
-    background: #FFF;
-    border: none;
-    padding: 20px 25px;
-    color: #005FAC;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 32px;
-}
-
-/* main secton  */
-
-main {}
+/* failure secton  */
 
 .failure {
     display: flex;
-    align-items: flex-end;
-    gap: 134px;
-    padding: 100px 115px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 155px 0 155px;
 }
 
 .failure img {
@@ -115,48 +107,47 @@ ul li:before {
     margin-bottom: 16px;
 }
 
-/* my plan section  */
-.plan-title {
-    color: #151414;
+.plan-section {
+    padding: 130px;
+    margin-top: 0;
+}
+
+#my-plan1 {
     text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    max-width: 1600px;
 }
 
 .plan {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: center;
-    margin-top: 53px;
-    max-width: 1600px;
+    margin-top: 100px;
 }
 
 .card-title {
     color: #151414;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     margin-top: 21px;
 }
 
 .card-desc {
     color: #737272;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
     margin-top: 16px;
 }
 
 /* watch section  */
 .watch-section {
-    max-width: 1600px;
-    padding: 130px;
+    padding: 0 130px;
 }
 
 .watch {
     border-radius: 8px;
     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url('../images/watch.png');
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    max-width: 1140px;
     height: 300px;
     padding: 59px 64px;
 }
@@ -165,4 +156,55 @@ ul li:before {
     color: #FFF;
     font-size: 40px;
     font-weight: 700;
+}
+
+/* footer */
+
+footer {
+    margin-top: 130px;
+    display: flex;
+    gap: 150px;
+    padding: 100px 130px;
+    background-color: #151414;
+}
+
+.foot-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.foot-desc {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+.sub {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.sub-foot input {
+    padding: 20px;
+    color: #F3F3F3;
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 70%;
+}
+
+.foot {
+    width: 50%;
+}
+
+.social-links img {
+    margin-top: 30px;
+    margin-right: 15px;
 }
